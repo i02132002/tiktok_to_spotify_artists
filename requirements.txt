@@ -1,0 +1,4 @@
+sklearn
+pandas
+plotly==5.9.0
+seaborn
