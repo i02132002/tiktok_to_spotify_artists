@@ -38,6 +38,9 @@ def plot_trajectories(df, suffix='spotify'):
 
 ca = ChartAnalyzer()
 st.title('Which Tiktokkers Made it to Spotify?')
+st.write("""TikTok is an emerging source for discovering young musical talent, 
+            but not every popular track on TikTok makes it into Spotify playlists.
+            Which TikTokers are making it big on Spotify?""")
 st.image('tiktok_spotify.png')
 st.write("""To see which artists got their big breaks from TikTok, I found artists who both charted on 
             TikTok and Spotify. I then filtered out \"established artists\" by excluding artists who have 
